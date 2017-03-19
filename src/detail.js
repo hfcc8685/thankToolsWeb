@@ -1,6 +1,6 @@
 import React from 'react'
-import {Card, Col, Row,Collapse} from 'antd'
-import Title from 'component/title'
+import {Card, Col, Row, Collapse} from 'antd'
+import Title from './component/title'
 const Panel = Collapse.Panel;
 export default class Detail extends React.Component{
     render(){
