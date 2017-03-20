@@ -11,11 +11,11 @@ export default class Home extends React.Component{
         return (
             <Row style={{ background: '#ECECEC', padding: '30px' }}>
                 <Link to="/detail">
-                <Col span="8">
-                    <Card title="Card title" bordered={false}>
-                        Vim
-                    </Card>
-                </Col>
+                    <Col span="8">
+                        <Card title="Card title" bordered={false}>
+                            Vim
+                        </Card>
+                    </Col>
                 </Link>
                 <Col span="8">
                     <Card title="Card title" bordered={false}>WebStrom</Card>
