@@ -9,20 +9,50 @@ export default class Home extends React.Component{
     }
     render () {
         return (
-            <Row style={{ background: '#ECECEC', padding: '30px' }}>
-                <Link to="/detail">
-                    <Col span="8">
+            <Row gutter={20}>
+                <Col span="4">
+                    <Link to="/detail">
                         <Card title="Card title" bordered={false}>
                             Vim
                         </Card>
-                    </Col>
-                </Link>
-                <Col span="8">
-                    <Card title="Card title" bordered={false}>WebStrom</Card>
+                    </Link>
                 </Col>
-                <Col span="8">
-                    <Card title="Card title" bordered={false}>Vim</Card>
+                <Col span="4">
+                    <Link to="/detail">
+                        <Card title="Card title" bordered={false}>
+                            Vim
+                        </Card>
+                    </Link>
                 </Col>
+                <Col span="4">
+                    <Link to="/detail">
+                        <Card title="Card title" bordered={false}>
+                            Vim
+                        </Card>
+                    </Link>
+                </Col>
+                <Col span="4">
+                    <Link to="/detail">
+                        <Card title="Card title" bordered={false}>
+                            Vim
+                        </Card>
+                    </Link>
+                </Col>
+                <Col span="4">
+                    <Link to="/detail">
+                        <Card title="Card title" bordered={false}>
+                            Vim
+                        </Card>
+                    </Link>
+                </Col>
+                <Col span="4">
+                    <Link to="/detail">
+                        <Card title="Card title" bordered={false}>
+                            Vim
+                        </Card>
+                    </Link>
+                </Col>
+
             </Row>
         )
     }
